@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600;0,900;1,200&display=swap');
+
+body {
+    font-family: 'Archivo', Helvetica;
+}
+p {
+    margin-left: 20px;
+    color: #e78c41;
+}
+ul {
+   background-color: aqua;
+}
+ul li {
+    color: #492406;
+}
+ul li::before { 
+    content: "\2022";
+    color: #f05945;
+    width: 1em;
+    margin-right: 25 px;
+} 
