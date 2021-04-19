@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600;0,900;1,200&display=swap');
+
+img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+background-color: rgb(236, 200, 187);
+    
+}
+
+body {
+    font-family: 'Archivo', Helvetica;
+    background-color: rgb(235, 192, 157);
+
+}
+header p { 
+    font-weight: 700px;
+    color: #d16117;
+    background-color: darkgray;
+
+}
+header a {
+    text-decoration: none;
+float: inline-end;
+    padding: 30px;
+    background-color: #f19012;
+    float: right;
+    color: #5f1a06;
+}
