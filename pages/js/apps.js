@@ -1,4 +1,9 @@
 'use strict';
+
+
+ 
+
+
 let workingHours = ['6am:', '7am:', '8am:', '9am:', '10am:', '11am:', '12pm:', '1pm:', '2pm:', '3pm:', '4pm:', '5pm:', '6pm:', '7pm:'];
 function Cookies(name, minCust, maxCust, averageCookies) {
   this.name = name;
@@ -138,7 +143,7 @@ function generateTableHead(parentElement) {
   parentElement.appendChild(trHeader);
   const thHeader = document.createElement('th');
   trHeader.appendChild(thHeader);
-  thHeader.textContent = '##';
+  thHeader.textContent = 'location/hour';
   for (let i = 0; i < workingHours.length; i++) {
     let thHeader = document.createElement('th');
     trHeader.appendChild(thHeader);
@@ -148,3 +153,12 @@ function generateTableHead(parentElement) {
   trHeader.appendChild(thTotal);
   thTotal.textContent = 'Daily location Total';
 };
+
+newBranchForm.addEventListener('submit', eventButton);
+function eventButton(event) {
+event.preventDefault();
+
+
+  console.log(location,minCust,maxCust,averageCookies);
+
+}
