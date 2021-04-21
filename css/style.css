@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600;0,900;1,200&display=swap');
 
-img {
-    width: 25%;
-    display: block;
-    margin-left: auto;
-margin-right: auto;
-background-color: rgb(236, 200, 187);
-    
-}
+::after
+*::before {
+    box-sizing: border-box;
+  }
+    container {
+        display: grid;
+        grid-template-rows: 100px 1fr 50px;
+    }
+   
+    header {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        align-items: center;
+        background: #ccc;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        color: #585454;
+        font-weight: 600;
+        position: relative;
+      }
 
+      
 body {
     font-family: 'Archivo', Helvetica;
     background-color: rgb(235, 192, 157);
@@ -17,7 +32,7 @@ body {
 header p { 
     font-weight: 700px;
     color: #d16117;
-    background-color: darkgray;
+    
 
 }
 header a {
@@ -28,3 +43,4 @@ float: inline-end;
     float: right;
     color: #5f1a06;
 }
+
