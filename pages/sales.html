@@ -11,19 +11,19 @@
 </head>
 
 <body>
-    <form>
+    <form id="form">
         <fieldset>
             <legend>
                 <form>New Branch Form</form>
                 <form id="newBranchForm"></form>
                 <label for="Branch location">Branch location:</label>
-                <input type="text" id="bLocation" name="bLocation">
+                <input type="text" id="bLocation" name="bLocation" required>
                 <label for="Min custumers">Min custumers:</label>
-                <input type="text" id="minCustomers" name="minCustomers">
+                <input type="number" id="minCustomers" name="minCustomers" required>
                 <label for="Max custumers">Max custumers:</label>
-                <input type="text" id="" name="maxCustomers">
+                <input type="number" id="" name="maxCustomers" required>
                 <label for="Average cookie">Average cookies:</label>
-                <input type="text" id="avgCookies" name="avgCookies">
+                <input type="number" id="avgCookies" step="0.01" required/>
                 <input type="submit" value="submit">
             </legend>
         </fieldset>

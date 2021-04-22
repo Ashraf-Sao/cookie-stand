@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600;0,900;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Patrick+Hand&family=Yellowtail&display=swap');
 
 body {
-    font-family: 'Archivo', Helvetica;
+    font-family: 'Patrick Hand', cursive;
+    background-color: coral;
+    color: crimson;
 }
 p {
     grid-template-columns: auto;
@@ -20,3 +22,7 @@ ul li::before {
     width: 1em;
     margin-right: 25 px;
 } 
+form {
+    font-family: 'Yellowtail', cursive;
+    color: brown;
+}
